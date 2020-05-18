@@ -1,3 +1,8 @@
 [build]
-  functions = "./functions/build"
-  command = "npm run netlify:build"
+    functions = "./functions/build"
+    command = "npm run netlify:build"
+
+[template.environment]
+    AIRTABLE_BASE = "Airtable Base ID"
+    AIRTABLE_KEY = "Airtable API Key"
+    AIRTABLE_TABLE = "Airtable Table"

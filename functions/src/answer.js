@@ -27,7 +27,7 @@ exports.handler = async (event, context) => {
             ncco.push({
                 action: 'talk',
                 voiceName: 'Brian',
-                text: 'Sorry I haven\'t got around to recording today\'s thoguth of the day yet. God bless.'
+                text: 'Sorry I haven\'t got around to recording today\'s thought of the day yet. God bless.'
             })
         }
         return { headers, statusCode: 200, body: JSON.stringify(ncco) }

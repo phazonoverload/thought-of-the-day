@@ -1,0 +1,1 @@
+https://app.netlify.com/start/deploy?repository=https://github.com/phazonoverload/thought-of-the-day

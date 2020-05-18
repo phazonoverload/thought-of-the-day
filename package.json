@@ -1,0 +1,21 @@
+{
+  "name": "thought-of-the-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "netlify:serve": "netlify-lambda serve functions/src",
+    "netlify:build": "netlify-lambda build functions/src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "airtable-plus": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "encoder": "^0.2.4",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "nexmo": "^2.7.0-beta-1"
+  }
+}

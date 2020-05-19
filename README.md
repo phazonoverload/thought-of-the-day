@@ -31,7 +31,7 @@ This project was built to support those who can't make it to group faith gatheri
 
 When users call the number they will now get a thought of the day, or a fallback message.
 
-## Adding thoughts
+## Adding thoughts
 
 1. Add a new row in Airtable
 1. Provide the thought date in the Date field

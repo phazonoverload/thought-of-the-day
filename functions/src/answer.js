@@ -1,5 +1,5 @@
 require('dotenv').config()
-const { AIRTABLE_BASE, AIRTABLE_KEY, AIRTABLE_TABLE } = process.env
+const { AIRTABLE_BASE, AIRTABLE_KEY, AIRTABLE_TABLE, FALLBACK } = process.env
 
 const Airtable = require('airtable-plus')
 const base = new Airtable({
@@ -27,7 +27,7 @@ exports.handler = async (event, context) => {
             ncco.push({
                 action: 'talk',
                 voiceName: 'Brian',
-                text: 'Sorry I haven\'t got around to recording today\'s thought of the day yet. God bless.'
+                text: FALLBACK
             })
         }
         return { headers, statusCode: 200, body: JSON.stringify(ncco) }

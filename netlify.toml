@@ -6,3 +6,4 @@
     AIRTABLE_BASE = "Airtable Base ID"
     AIRTABLE_KEY = "Airtable API Key"
     AIRTABLE_TABLE = "Airtable Table"
+    FALLBACK = "Text to be read if there is no thought of the day"
